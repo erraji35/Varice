@@ -30,7 +30,7 @@ $("#orderform").submit(function(event){
 
     // Fire off the request to /form.php
     request = $.ajax({
-        url: "https://www.mozwar.com/go/?order=igUV5ECfFb1KvmXcUQyWt4PHjhyZAj",
+        url: "https://script.google.com/macros/s/AKfycbxrPqOv5pRJ4_SaYvrXlF86Yv0HYdvwqg006SkGvVhy1HLHgp7HNRDqQVT_Ltt5968/exec",
         type: "post",
         data: serializedData
     });
