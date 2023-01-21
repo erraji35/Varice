@@ -1,4 +1,4 @@
-            // Variable to hold request
+            // Varable to hold request
 var request;
 
 var url      = window.location.href;
