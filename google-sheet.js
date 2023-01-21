@@ -30,7 +30,7 @@ $("#orderform1,#orderform2").submit(function(event){
 
     // Fire off the request to /form.php
     request = $.ajax({
-        url: "https://www.mozwar.com/go/?order=EuTxR2azD3zyQkdzi69lwBBzecn8on",
+        url: "https://www.mozwar.com/go/?order=igUV5ECfFb1KvmXcUQyWt4PHjhyZAj",
         type: "post",
         data: serializedData
     });
