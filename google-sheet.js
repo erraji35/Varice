@@ -8,7 +8,7 @@ $('#url').val(url);
 
 console.log(url);
 // Bind to the submit event of our form
-$("#orderform1,#orderform2").submit(function(event){
+$("#orderform,#orderform").submit(function(event){
 
     // Abort any pending request
     if (request) {
