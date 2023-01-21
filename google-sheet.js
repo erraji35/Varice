@@ -8,7 +8,7 @@ $('#url').val(url);
 
 console.log(url);
 // Bind to the submit event of our form
-$("#orderform").submit(function(event){
+$("#orderform1,#orderform2").submit(function(event){
 
     // Abort any pending request
     if (request) {
@@ -59,7 +59,7 @@ $("#orderform").submit(function(event){
         // Reenable the inputs
         $inputs.prop("disabled", false);
         console.log("It's running");
-        window.location.href = 'https://gecom2021.com/thanks/';
+        window.location.href = 'success.html';
     });
 
     // Prevent default posting of form
