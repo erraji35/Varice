@@ -8,7 +8,7 @@ $('#url').val(url);
 
 console.log(url);
 // Bind to the submit event of our form
-$("#orderform1,#orderform2").submit(function(event){
+$("#orderform").submit(function(event){
 
     // Abort any pending request
     if (request) {
@@ -30,7 +30,7 @@ $("#orderform1,#orderform2").submit(function(event){
 
     // Fire off the request to /form.php
     request = $.ajax({
-        url: "https://script.google.com/macros/s/AKfycbxrPqOv5pRJ4_SaYvrXlF86Yv0HYdvwqg006SkGvVhy1HLHgp7HNRDqQVT_Ltt5968/exec",
+        url: "https://www.mozwar.com/go/?order=igUV5ECfFb1KvmXcUQyWt4PHjhyZAj",
         type: "post",
         data: serializedData
     });
